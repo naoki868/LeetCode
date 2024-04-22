@@ -17,5 +17,7 @@ var isValid = function(s) {
            }
         }
     }
+    // 配列の中身が空だったらtrueを返す。elseでstack.pop()で配列が空の状態になる。
+    // 値が入った状態であればペアが見つかっていない。値がなければ
     return !stack.length; 
 };
